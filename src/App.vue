@@ -1,7 +1,7 @@
 <template>
     <div>
         <p>counterL {{ counter }}</p>
-        <div class="d-grid gap-1">
+        <div class="d-flex gap-1">
             <button v-on:click="inc" class="btn btn-success">inc</button>
             <button v-on:click="dsc" class="btn btn-danger">dsc</button>
         </div>
